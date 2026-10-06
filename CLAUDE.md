@@ -8,7 +8,8 @@ combinaciones y, si está analizado, resultados.
 
 - Funcionando de punta a punta, probado contra `CL132.EDB` (Lote 132 – Loma Reserva) en ETABS 23.2.
 - Registrado en Claude Code a nivel de usuario como `etabs` (`claude mcp get etabs`).
-- **Solo lectura.** Sin repositorio remoto todavía.
+- **Solo lectura.**
+- Repo privado `ZafiroSad/ETABS-MCP`, rama `master`.
 
 ## Herramientas
 
@@ -52,4 +53,4 @@ etabs_mcp/servidor.py  herramientas MCP (SDK mcp 2.x: MCPServer, no FastMCP)
   ProgramFiles`); resuelto fijando `ProgramFiles` y `dotnet_root` en `conexion.py`.
 - Ruta de ETABS fija a la v23 (variable `ETABS_RUTA` para cambiarla).
 - Pendiente: herramientas de resultados directas (derivas, cortante basal, modos) una
-  vez el modelo esté analizado; fase de escritura; repo en GitHub.
+  vez el modelo esté analizado; fase de escritura.
